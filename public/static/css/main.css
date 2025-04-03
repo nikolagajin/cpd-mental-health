@@ -1,0 +1,1649 @@
+/* line 1, ../../scss/base/_typography.scss */
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+  /* 10px */
+}
+
+/* line 6, ../../scss/base/_typography.scss */
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 5.4rem;
+  font-weight: 800;
+}
+
+/* line 12, ../../scss/base/_typography.scss */
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 5.4rem;
+  font-weight: 800;
+}
+
+/* line 22, ../../scss/base/_typography.scss */
+p {
+  font-size: 1.6rem;
+}
+
+/* line 5, ../../scss/elements/_bubble.scss */
+*, *::before, *::after {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+
+/* line 84, ../../scss/elements/_bubble.scss */
+.bubble-center {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+/* line 89, ../../scss/elements/_bubble.scss */
+.bubble {
+  display: inline-block;
+  margin: 0.5rem 0.75rem;
+  min-height: 3em;
+  position: relative;
+  border-radius: 0.75em;
+  line-height: 1.3;
+  color: #000;
+  background-color: #fff;
+  font-size: 1.6rem;
+}
+/* line 29, ../../scss/elements/_bubble.scss */
+.bubble p {
+  padding: 0.75em 0.75em;
+}
+/* line 32, ../../scss/elements/_bubble.scss */
+.bubble p strong {
+  background: #89298D;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: normal;
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+/* line 42, ../../scss/elements/_bubble.scss */
+.bubble p b {
+  color: #89298D;
+}
+/* line 48, ../../scss/elements/_bubble.scss */
+.bubble a {
+  text-decoration: underline;
+  color: inherit;
+}
+/* line 53, ../../scss/elements/_bubble.scss */
+.bubble ul {
+  margin-left: 3rem;
+  padding: 0.75rem;
+}
+/* line 57, ../../scss/elements/_bubble.scss */
+.bubble ul li {
+  margin-bottom: 0.4rem;
+}
+/* line 63, ../../scss/elements/_bubble.scss */
+.bubble img {
+  width: 100%;
+  -moz-border-radius-topleft: 0.75em;
+  -webkit-border-top-left-radius: 0.75em;
+  border-top-left-radius: 0.75em;
+  -moz-border-radius-topright: 0.75em;
+  -webkit-border-top-right-radius: 0.75em;
+  border-top-right-radius: 0.75em;
+}
+/* line 69, ../../scss/elements/_bubble.scss */
+.bubble::before {
+  content: '';
+  display: block;
+  width: 2.25em;
+  height: 1.5em;
+  position: absolute;
+  left: -0.75em;
+  bottom: 0;
+  border-right: 1.5em solid #fff;
+  border-bottom-right-radius: 100%;
+  z-index: 0;
+}
+
+/* line 93, ../../scss/elements/_bubble.scss */
+.bubble-big {
+  display: inline-block;
+  margin: 0.5rem 0.75rem;
+  min-height: 3em;
+  position: relative;
+  border-radius: 0.75em;
+  line-height: 1.3;
+  color: #000;
+  background-color: #fff;
+  font-size: 1.6rem;
+  background-color: #2a6afc;
+}
+/* line 29, ../../scss/elements/_bubble.scss */
+.bubble-big p {
+  padding: 0.75em 0.75em;
+}
+/* line 32, ../../scss/elements/_bubble.scss */
+.bubble-big p strong {
+  background: #89298D;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: normal;
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+/* line 42, ../../scss/elements/_bubble.scss */
+.bubble-big p b {
+  color: #89298D;
+}
+/* line 48, ../../scss/elements/_bubble.scss */
+.bubble-big a {
+  text-decoration: underline;
+  color: inherit;
+}
+/* line 53, ../../scss/elements/_bubble.scss */
+.bubble-big ul {
+  margin-left: 3rem;
+  padding: 0.75rem;
+}
+/* line 57, ../../scss/elements/_bubble.scss */
+.bubble-big ul li {
+  margin-bottom: 0.4rem;
+}
+/* line 63, ../../scss/elements/_bubble.scss */
+.bubble-big img {
+  width: 100%;
+  -moz-border-radius-topleft: 0.75em;
+  -webkit-border-top-left-radius: 0.75em;
+  border-top-left-radius: 0.75em;
+  -moz-border-radius-topright: 0.75em;
+  -webkit-border-top-right-radius: 0.75em;
+  border-top-right-radius: 0.75em;
+}
+/* line 69, ../../scss/elements/_bubble.scss */
+.bubble-big::before {
+  content: '';
+  display: block;
+  width: 2.25em;
+  height: 1.5em;
+  position: absolute;
+  left: -0.75em;
+  bottom: 0;
+  border-right: 1.5em solid #fff;
+  border-bottom-right-radius: 100%;
+  z-index: 0;
+}
+/* line 98, ../../scss/elements/_bubble.scss */
+.bubble-big p, .bubble-big a {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+/* line 106, ../../scss/elements/_bubble.scss */
+.bubble-big a {
+  text-decoration: underline;
+}
+/* line 110, ../../scss/elements/_bubble.scss */
+.bubble-big::before {
+  border-color: #2a6afc;
+}
+
+/* line 115, ../../scss/elements/_bubble.scss */
+.bubble-prominent {
+  display: inline-block;
+  margin: 0.5rem 0.75rem;
+  min-height: 3em;
+  position: relative;
+  border-radius: 0.75em;
+  line-height: 1.3;
+  color: #000;
+  background-color: #fff;
+  font-size: 1.6rem;
+  background-color: #2a6afc;
+}
+/* line 29, ../../scss/elements/_bubble.scss */
+.bubble-prominent p {
+  padding: 0.75em 0.75em;
+}
+/* line 32, ../../scss/elements/_bubble.scss */
+.bubble-prominent p strong {
+  background: #89298D;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: normal;
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+/* line 42, ../../scss/elements/_bubble.scss */
+.bubble-prominent p b {
+  color: #89298D;
+}
+/* line 48, ../../scss/elements/_bubble.scss */
+.bubble-prominent a {
+  text-decoration: underline;
+  color: inherit;
+}
+/* line 53, ../../scss/elements/_bubble.scss */
+.bubble-prominent ul {
+  margin-left: 3rem;
+  padding: 0.75rem;
+}
+/* line 57, ../../scss/elements/_bubble.scss */
+.bubble-prominent ul li {
+  margin-bottom: 0.4rem;
+}
+/* line 63, ../../scss/elements/_bubble.scss */
+.bubble-prominent img {
+  width: 100%;
+  -moz-border-radius-topleft: 0.75em;
+  -webkit-border-top-left-radius: 0.75em;
+  border-top-left-radius: 0.75em;
+  -moz-border-radius-topright: 0.75em;
+  -webkit-border-top-right-radius: 0.75em;
+  border-top-right-radius: 0.75em;
+}
+/* line 69, ../../scss/elements/_bubble.scss */
+.bubble-prominent::before {
+  content: '';
+  display: block;
+  width: 2.25em;
+  height: 1.5em;
+  position: absolute;
+  left: -0.75em;
+  bottom: 0;
+  border-right: 1.5em solid #fff;
+  border-bottom-right-radius: 100%;
+  z-index: 0;
+}
+/* line 120, ../../scss/elements/_bubble.scss */
+.bubble-prominent p, .bubble-prominent a {
+  color: #fff;
+  font-size: 2rem;
+}
+/* line 126, ../../scss/elements/_bubble.scss */
+.bubble-prominent::before {
+  border-color: #2a6afc;
+}
+
+/* line 132, ../../scss/elements/_bubble.scss */
+.no-bub .bubble::before {
+  border: none;
+}
+
+/* line 137, ../../scss/elements/_bubble.scss */
+.emoji {
+  width: 20%;
+  margin-left: 4%;
+}
+
+/* line 142, ../../scss/elements/_bubble.scss */
+.gif {
+  max-height: 100px;
+}
+
+/* line 155, ../../scss/elements/_bubble.scss */
+.page-family .bubble {
+  background-color: #efeded;
+}
+/* line 158, ../../scss/elements/_bubble.scss */
+.page-family .bubble::before {
+  border-color: #efeded;
+}
+/* line 163, ../../scss/elements/_bubble.scss */
+.page-family .bubble-big {
+  background-color: #fea904;
+}
+/* line 166, ../../scss/elements/_bubble.scss */
+.page-family .bubble-big::before {
+  border-color: #fea904;
+}
+
+/* line 173, ../../scss/elements/_bubble.scss */
+.page-divorce .bubble-big {
+  background-color: #89298D;
+}
+/* line 176, ../../scss/elements/_bubble.scss */
+.page-divorce .bubble-big::before {
+  border-color: #89298D;
+}
+
+/* line 183, ../../scss/elements/_bubble.scss */
+.page-health .bubble {
+  background-color: #efeded;
+}
+/* line 186, ../../scss/elements/_bubble.scss */
+.page-health .bubble::before {
+  border-color: #efeded;
+}
+/* line 191, ../../scss/elements/_bubble.scss */
+.page-health .bubble-big {
+  background-color: #002374;
+}
+/* line 194, ../../scss/elements/_bubble.scss */
+.page-health .bubble-big::before {
+  border-color: #002374;
+}
+
+/* line 201, ../../scss/elements/_bubble.scss */
+.page-kidshasrights .bubble {
+  background-color: #efeded;
+}
+/* line 204, ../../scss/elements/_bubble.scss */
+.page-kidshasrights .bubble::before {
+  border-color: #efeded;
+}
+/* line 209, ../../scss/elements/_bubble.scss */
+.page-kidshasrights .bubble-big {
+  background-color: #2a6afc;
+}
+/* line 212, ../../scss/elements/_bubble.scss */
+.page-kidshasrights .bubble-big::before {
+  border-color: #2a6afc;
+}
+
+/* line 220, ../../scss/elements/_bubble.scss */
+#circleG {
+  width: 8rem;
+  padding: 2rem 1rem 0 1rem;
+}
+
+/* line 225, ../../scss/elements/_bubble.scss */
+.circleG {
+  background-color: rgba(255, 255, 255, 0);
+  float: left;
+  height: 8px;
+  margin-left: 4px;
+  width: 8px;
+  animation-name: bounce_circleG;
+  -o-animation-name: bounce_circleG;
+  -ms-animation-name: bounce_circleG;
+  -webkit-animation-name: bounce_circleG;
+  -moz-animation-name: bounce_circleG;
+  animation-duration: 1.1s;
+  -o-animation-duration: 1.1s;
+  -ms-animation-duration: 1.1s;
+  -webkit-animation-duration: 1.1s;
+  -moz-animation-duration: 1.1s;
+  animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-direction: normal;
+  -o-animation-direction: normal;
+  -ms-animation-direction: normal;
+  -webkit-animation-direction: normal;
+  -moz-animation-direction: normal;
+  border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+}
+
+/* line 258, ../../scss/elements/_bubble.scss */
+#circleG_1 {
+  animation-delay: 0.3s;
+  -o-animation-delay: 0.3s;
+  -ms-animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+}
+
+/* line 266, ../../scss/elements/_bubble.scss */
+#circleG_2 {
+  animation-delay: 0.65s;
+  -o-animation-delay: 0.65s;
+  -ms-animation-delay: 0.65s;
+  -webkit-animation-delay: 0.65s;
+  -moz-animation-delay: 0.65s;
+}
+
+/* line 274, ../../scss/elements/_bubble.scss */
+#circleG_3 {
+  animation-delay: 0.9s;
+  -o-animation-delay: 0.9s;
+  -ms-animation-delay: 0.9s;
+  -webkit-animation-delay: 0.9s;
+  -moz-animation-delay: 0.9s;
+}
+
+@keyframes bounce_circleG {
+  50% {
+    background-color: #2a69fc;
+  }
+}
+@-o-keyframes bounce_circleG {
+  50% {
+    background-color: #2a69fc;
+  }
+}
+@-ms-keyframes bounce_circleG {
+  50% {
+    background-color: #2a69fc;
+  }
+}
+@-webkit-keyframes bounce_circleG {
+  50% {
+    background-color: #2a69fc;
+  }
+}
+@-moz-keyframes bounce_circleG {
+  50% {
+    background-color: #2a69fc;
+  }
+}
+/* line 348, ../../scss/elements/_bubble.scss */
+.bubble-center {
+  animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  /* Firefox */
+  -webkit-animation: fadein 1s;
+  /* Safari and Chrome */
+  -o-animation: fadein 1s;
+  /* Opera */
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* line 6, ../../scss/main.scss */
+.container-fluid, .container {
+  background-color: black;
+  height: 100%;
+  padding-top: 6rem;
+  min-height: 100vh;
+}
+
+/* line 13, ../../scss/main.scss */
+[data-ref] {
+  cursor: pointer;
+}
+
+/* line 17, ../../scss/main.scss */
+.red {
+  background-color: red;
+  height: 10vh;
+}
+
+/* line 22, ../../scss/main.scss */
+.offset-05 {
+  margin-left: 2rem;
+}
+
+/* line 26, ../../scss/main.scss */
+.page-kidshasrights {
+  background-color: #fff;
+}
+
+/* line 30, ../../scss/main.scss */
+.page-home {
+  background-color: #2a6afc;
+}
+
+/* line 34, ../../scss/main.scss */
+.page-school {
+  background-color: #fea904;
+}
+
+/* line 38, ../../scss/main.scss */
+.page-family {
+  background-color: #fff;
+}
+
+/* line 42, ../../scss/main.scss */
+.page-divorce {
+  background-color: #2a6afc;
+}
+
+/* line 46, ../../scss/main.scss */
+.page-health {
+  background-color: #fff;
+}
+
+/* line 50, ../../scss/main.scss */
+.content {
+  padding: 0;
+}
+/* line 52, ../../scss/main.scss */
+.content > .row {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 61, ../../scss/main.scss */
+.section-page-header h1, .section-page-header h2 {
+  color: #fff;
+  font-size: 4rem;
+}
+/* line 66, ../../scss/main.scss */
+.section-page-header h2 {
+  font-size: 2.4rem;
+}
+/* line 70, ../../scss/main.scss */
+.section-page-header img {
+  max-width: 15%;
+}
+
+/* line 76, ../../scss/main.scss */
+.page-kidshasrights .section-page-header h1, .page-kidshasrights .section-page-header h2 {
+  color: #E12934;
+}
+
+/* line 82, ../../scss/main.scss */
+.page-family .section-page-header h1, .page-family .section-page-header h2 {
+  color: #89298D;
+}
+
+/* line 88, ../../scss/main.scss */
+.page-health .section-page-header h1, .page-health .section-page-header h2 {
+  color: #002374;
+}
+
+/* line 93, ../../scss/main.scss */
+.intro {
+  color: #fff;
+}
+/* line 97, ../../scss/main.scss */
+.intro p {
+  font-size: 2.4rem;
+}
+
+/* line 102, ../../scss/main.scss */
+.hero-box {
+  height: 300px;
+  background-size: 100%;
+  position: relative;
+  margin-bottom: 1rem;
+}
+/* line 108, ../../scss/main.scss */
+.hero-box h1, .hero-box h2, .hero-box h3, .hero-box p {
+  text-align: center;
+}
+/* line 112, ../../scss/main.scss */
+.hero-box h3 {
+  margin: 5% auto 15% auto;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  font-size: 4rem;
+}
+/* line 123, ../../scss/main.scss */
+.hero-box h2 {
+  font-size: 3.8rem;
+  margin: 5% auto 15% auto;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+/* line 133, ../../scss/main.scss */
+.hero-box h1 {
+  margin: 60% auto 0 auto;
+  font-size: 4rem;
+  font-style: italic;
+}
+/* line 138, ../../scss/main.scss */
+.hero-box h1 span {
+  background-color: #fff;
+  color: #2a6afc;
+  padding: 0 1.5rem;
+  border-radius: 0.5rem;
+}
+/* line 146, ../../scss/main.scss */
+.hero-box .info {
+  z-index: 10;
+}
+/* line 149, ../../scss/main.scss */
+.hero-box .info h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: white;
+}
+/* line 158, ../../scss/main.scss */
+.hero-box.heading h1 {
+  margin-top: 50%;
+}
+/* line 160, ../../scss/main.scss */
+.hero-box.heading h1 span {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 3.6rem;
+}
+/* line 169, ../../scss/main.scss */
+.hero-box p {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-size: 1.8rem;
+}
+/* line 176, ../../scss/main.scss */
+.hero-box p span {
+  display: inline;
+  padding: 0 0.5rem;
+}
+/* line 182, ../../scss/main.scss */
+.hero-box .layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: #fff;
+  opacity: 0.3;
+}
+/* line 193, ../../scss/main.scss */
+.hero-box.kidshasrights {
+  background-image: url('../img/hero/svadecaimajuprava.png?1548927442');
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position-y: 13rem;
+}
+/* line 199, ../../scss/main.scss */
+.hero-box.kidshasrights h2 {
+  font-size: 3.5rem !important;
+  margin-top: 6%;
+  color: #23477B !important;
+}
+/* line 205, ../../scss/main.scss */
+.hero-box.kidshasrights h3 {
+  color: #23477B !important;
+}
+/* line 210, ../../scss/main.scss */
+.hero-box.convention-kidshasrights {
+  background-image: url('../img/school/03_mojaprava.png?1548927590');
+  background-repeat: no-repeat;
+  background-position-y: -14em;
+}
+/* line 216, ../../scss/main.scss */
+.hero-box.violence-kidshasrights {
+  background-image: url('../img/school/05_iks.png?1548927680');
+  background-size: auto 370px;
+  background-position-x: -4rem;
+  background-position-y: -3rem;
+}
+/* line 223, ../../scss/main.scss */
+.hero-box.school {
+  background-image: url('../img/school/02_skola.png?1548927548');
+}
+/* line 226, ../../scss/main.scss */
+.hero-box.school h2 {
+  color: #23477B;
+}
+/* line 230, ../../scss/main.scss */
+.hero-box.school h3 {
+  color: #23477B;
+}
+/* line 235, ../../scss/main.scss */
+.hero-box.school p span {
+  background: #23477B;
+}
+/* line 245, ../../scss/main.scss */
+.hero-box.family {
+  background-image: url('../img/family/02_party.png?1548928222');
+  background-size: auto 309px;
+  background-position-x: -1rem;
+}
+/* line 250, ../../scss/main.scss */
+.hero-box.family h2, .hero-box.family h3 {
+  color: #06B5B5;
+}
+/* line 257, ../../scss/main.scss */
+.hero-box.family p span {
+  background: #06B5B5;
+}
+/* line 263, ../../scss/main.scss */
+.hero-box.fostercare-family {
+  background-image: url('../img/family/02_party.png?1548928222');
+  background-repeat: no-repeat;
+}
+/* line 268, ../../scss/main.scss */
+.hero-box.participatein-family {
+  background-image: url('../img/family/01_svadecaimajuprava.png?1548927442');
+  background-repeat: no-repeat;
+  background-position-y: 12rem;
+}
+/* line 274, ../../scss/main.scss */
+.hero-box.permanence-family {
+  background-image: url('../img/family/05_q&a.png?1548928364');
+  background-repeat: no-repeat;
+}
+/* line 279, ../../scss/main.scss */
+.hero-box.permanencegoals-family {
+  background-image: url('../img/family/03_table.png?1548928292');
+  background-repeat: no-repeat;
+}
+/* line 284, ../../scss/main.scss */
+.hero-box.participationprinciples-family {
+  background-image: url('../img/family/04_books.png?1548928336');
+  background-repeat: no-repeat;
+  background-size: auto 274px;
+  background-position-x: -6rem;
+}
+/* line 291, ../../scss/main.scss */
+.hero-box.permanenceevaluation-family {
+  background-image: url('../img/family/03_table.png?1548928292');
+  background-repeat: no-repeat;
+}
+/* line 296, ../../scss/main.scss */
+.hero-box.divorce {
+  background-image: url('../img/divorce/kokadagde.png?1548929922');
+}
+/* line 299, ../../scss/main.scss */
+.hero-box.divorce h2, .hero-box.divorce h3 {
+  color: #2a6afc;
+}
+/* line 304, ../../scss/main.scss */
+.hero-box.divorce p span {
+  background: #2a6afc;
+  color: #fff;
+}
+/* line 311, ../../scss/main.scss */
+.hero-box.procedurerights-divorce {
+  background-image: url('../img/divorce/kokadagde.png?1548929922');
+}
+/* line 315, ../../scss/main.scss */
+.hero-box.procedureserbia-divorce {
+  background-image: url('../img/divorce/notes.png?1548929978');
+  background-position-y: -8rem;
+}
+/* line 320, ../../scss/main.scss */
+.hero-box.yourrights-divorce {
+  background-image: url('../img/divorce/kokadagde.png?1548929922');
+}
+/* line 324, ../../scss/main.scss */
+.hero-box.whereami-divorce {
+  background-image: url('../img/divorce/bajs.png?1548929954');
+  background-size: auto 302px;
+  background-position-x: -21rem;
+}
+/* line 331, ../../scss/main.scss */
+.hero-box.health {
+  background-image: url('../img/health/doktor.jpg?1551891222');
+  background-size: auto 340px;
+}
+/* line 335, ../../scss/main.scss */
+.hero-box.health h2, .hero-box.health h3 {
+  color: #fea904;
+}
+/* line 340, ../../scss/main.scss */
+.hero-box.health p span {
+  background: #fea904;
+  color: #fff;
+}
+/* line 347, ../../scss/main.scss */
+.hero-box.health-rights {
+  background-image: url('../img/health/cekaonica.jpg?1551891222');
+  background-size: auto 300px;
+  background-position-x: -10rem;
+}
+/* line 354, ../../scss/main.scss */
+.hero-box.in-school {
+  background-image: url('../img/school/02_skola.png?1548927548');
+  background-position-y: -7em;
+}
+/* line 359, ../../scss/main.scss */
+.hero-box.important-school {
+  background-image: url('../img/school/04_nastavnik.png?1548927652');
+  background-repeat: no-repeat;
+  background-size: auto 296px;
+}
+/* line 365, ../../scss/main.scss */
+.hero-box.rightsin-school {
+  background-image: url('../img/school/03_mojaprava.png?1548927590');
+  background-repeat: no-repeat;
+  background-position-y: -14em;
+}
+/* line 371, ../../scss/main.scss */
+.hero-box.dutiesin-school {
+  background-image: url('../img/school/06_razno.png?1548927758');
+  background-repeat: no-repeat;
+  background-size: auto 286px;
+  background-position-x: -8rem;
+}
+/* line 378, ../../scss/main.scss */
+.hero-box.rightshowtoin-school {
+  background-image: url('../img/school/08_zalba.png?1548927846');
+  background-repeat: no-repeat;
+  background-position-y: -9em;
+}
+/* line 384, ../../scss/main.scss */
+.hero-box.participatein-school {
+  background-image: url('../img/school/aktivnosti.png?1551893184');
+}
+/* line 388, ../../scss/main.scss */
+.hero-box.adoption-family {
+  background-image: url('../img/school/03_party.png');
+}
+
+/* line 394, ../../scss/main.scss */
+.section-hero-box {
+  height: 300px;
+  background-size: 100%;
+  background-image: url('../img/hero/stock_kids.png?1537978086');
+}
+/* line 398, ../../scss/main.scss */
+.section-hero-box p {
+  text-align: center;
+  margin: 60% 0 0 16%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #2a6afc;
+  font-size: 2.4rem;
+  font-weight: bold;
+  background-color: #fff;
+  display: inline-block;
+  line-height: 2.8rem;
+}
+/* line 411, ../../scss/main.scss */
+.section-hero-box p.rotate-left {
+  transform: rotate(-10deg);
+  margin-left: 3%;
+}
+/* line 416, ../../scss/main.scss */
+.section-hero-box p.rotate-right {
+  transform: rotate(10deg);
+}
+/* line 420, ../../scss/main.scss */
+.section-hero-box p.small-text {
+  font-size: 1.8rem;
+}
+
+/* line 429, ../../scss/main.scss */
+.page-kidshasrights .section-hero-box.convention-hero {
+  background-image: url('../img/school/03_mojaprava.png?1548927590');
+  background-position-y: -6em;
+}
+/* line 434, ../../scss/main.scss */
+.page-kidshasrights .section-hero-box.violence-hero {
+  background-image: url('../img/school/05_iks.png?1548927680');
+  background-size: auto 370px;
+  background-position-x: -4rem;
+  background-position-y: -3rem;
+}
+
+/* line 444, ../../scss/main.scss */
+.page-school .section-hero-box p {
+  background-color: #fea904;
+  color: #fff;
+}
+/* line 449, ../../scss/main.scss */
+.page-school .section-hero-box.school-hero {
+  background-image: url('../img/school/02_skola.png?1548927548');
+}
+/* line 453, ../../scss/main.scss */
+.page-school .section-hero-box.schoolrights-hero {
+  background-image: url('../img/school/03_mojaprava.png?1548927590');
+  background-position-y: -6em;
+}
+/* line 458, ../../scss/main.scss */
+.page-school .section-hero-box.schoolrightshowto-hero {
+  background-image: url('../img/school/08_zalba.png?1548927846');
+  background-position-y: -3rem;
+}
+/* line 463, ../../scss/main.scss */
+.page-school .section-hero-box.schoolimportant-hero {
+  background-image: url('../img/school/04_nastavnik.png?1548927652');
+  background-size: auto 301px;
+}
+/* line 468, ../../scss/main.scss */
+.page-school .section-hero-box.schoolduties-hero {
+  background-image: url('../img/school/06_razno.png?1548927758');
+  background-size: auto 300px;
+  background-position-x: -14rem;
+}
+/* line 474, ../../scss/main.scss */
+.page-school .section-hero-box.schoolactivities-hero {
+  background-image: url('../img/school/aktivnosti.png?1551893184');
+}
+
+/* line 480, ../../scss/main.scss */
+.page-family .section-hero-box {
+  background-image: url('../img/hero/stock_kids.png?1537978086');
+  background-repeat: no-repeat;
+}
+/* line 484, ../../scss/main.scss */
+.page-family .section-hero-box p {
+  background-color: #fea904;
+  color: #fff;
+}
+/* line 489, ../../scss/main.scss */
+.page-family .section-hero-box.familyfostercare-hero {
+  background-image: url('../img/family/02_party.png?1548928222');
+  background-size: auto 294px;
+}
+/* line 494, ../../scss/main.scss */
+.page-family .section-hero-box.familyparticipation-hero {
+  background-image: url('../img/family/01_svadecaimajuprava.png?1548927442');
+  background-position-y: 13rem;
+}
+/* line 498, ../../scss/main.scss */
+.page-family .section-hero-box.familyparticipation-hero p {
+  margin-top: 10% !important;
+}
+/* line 503, ../../scss/main.scss */
+.page-family .section-hero-box.familywhatis-hero {
+  background-image: url('../img/family/05_q&a.png?1548928364');
+  margin-top: 6%;
+  margin-left: 47%;
+}
+/* line 508, ../../scss/main.scss */
+.page-family .section-hero-box.familywhatis-hero p {
+  margin-top: -1% !important;
+  margin-left: 47%;
+  line-height: 2rem;
+  color: #fea904;
+  background: none;
+}
+/* line 517, ../../scss/main.scss */
+.page-family .section-hero-box.familywhen-hero {
+  background-image: url('../img/family/03_table.png?1548928292');
+  background-size: auto 301px;
+  background-position-x: -13rem;
+}
+/* line 523, ../../scss/main.scss */
+.page-family .section-hero-box.familyprinciples-hero {
+  background-image: url('../img/family/04_books.png?1548928336');
+  background-size: auto 300px;
+}
+/* line 528, ../../scss/main.scss */
+.page-family .section-hero-box.familyevaluation-hero {
+  background-image: url('../img/family/03_table.png?1548928292');
+  background-size: auto 301px;
+  background-position-x: -2rem;
+}
+
+/* line 536, ../../scss/main.scss */
+.page-divorce .section-hero-box {
+  background-image: url('../img/hero/stock_thinkingkid.png?1537978102');
+}
+/* line 539, ../../scss/main.scss */
+.page-divorce .section-hero-box p {
+  background-color: #89298D;
+  color: #fff;
+}
+/* line 544, ../../scss/main.scss */
+.page-divorce .section-hero-box.divorcerights-hero {
+  background-image: url('../img/divorce/kokadagde.png?1548929922');
+  background-size: auto 301px;
+}
+/* line 548, ../../scss/main.scss */
+.page-divorce .section-hero-box.divorcerights-hero p {
+  margin-top: 12% !important;
+}
+/* line 553, ../../scss/main.scss */
+.page-divorce .section-hero-box.divorcepractice-hero {
+  background-image: url('../img/divorce/notes.png?1548929978');
+  background-repeat: no-repeat;
+}
+/* line 557, ../../scss/main.scss */
+.page-divorce .section-hero-box.divorcepractice-hero p {
+  margin-top: 10% !important;
+}
+/* line 562, ../../scss/main.scss */
+.page-divorce .section-hero-box.divorcecourt-hero {
+  background-image: url('../img/hero/svadecaimajuprava.png?1548927442');
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position-y: 13rem;
+}
+/* line 568, ../../scss/main.scss */
+.page-divorce .section-hero-box.divorcecourt-hero p {
+  margin-top: 10% !important;
+}
+/* line 573, ../../scss/main.scss */
+.page-divorce .section-hero-box.divorceyou-hero {
+  background-image: url('../img/divorce/bajs.png?1548929954');
+  background-repeat: no-repeat;
+  background-size: auto 302px;
+  background-position-x: -24rem;
+}
+/* line 579, ../../scss/main.scss */
+.page-divorce .section-hero-box.divorceyou-hero p {
+  margin-top: 8% !important;
+}
+
+/* line 586, ../../scss/main.scss */
+.page-health .section-hero-box {
+  background-image: url('../img/health/cekaonica.jpg?1551891222');
+  background-size: auto 309px;
+  background-position-x: -9rem;
+}
+/* line 591, ../../scss/main.scss */
+.page-health .section-hero-box p {
+  background-color: #002374;
+  color: #fea904;
+}
+
+/* line 597, ../../scss/main.scss */
+.footer {
+  background: #2a6afc;
+}
+/* line 600, ../../scss/main.scss */
+.footer h2, .footer p {
+  color: #fff;
+  text-align: center;
+}
+/* line 606, ../../scss/main.scss */
+.footer h2 {
+  margin: 10% auto;
+}
+/* line 609, ../../scss/main.scss */
+.footer h2 a {
+  color: #fff;
+}
+/* line 614, ../../scss/main.scss */
+.footer p {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 619, ../../scss/main.scss */
+.footer p.disclaimer {
+  color: #fff;
+  opacity: 0.7;
+}
+/* line 624, ../../scss/main.scss */
+.footer p span {
+  display: inline;
+  padding: 0 0.5rem;
+  color: #002374;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+/* line 633, ../../scss/main.scss */
+.footer .logos {
+  text-align: center;
+}
+/* line 636, ../../scss/main.scss */
+.footer .logos img {
+  width: 60vw;
+  margin-bottom: 1rem;
+}
+
+/* line 643, ../../scss/main.scss */
+.navbar {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  background: #efeded;
+}
+/* line 649, ../../scss/main.scss */
+.navbar .navbar-collapse {
+  padding-top: 3rem;
+  background: #2a6afc;
+  top: 0;
+  position: absolute;
+  width: 100vw;
+  left: 0;
+}
+/* line 658, ../../scss/main.scss */
+.navbar .navbar-collapse.show {
+  height: 100vh;
+}
+/* line 664, ../../scss/main.scss */
+.navbar .navbar-brand svg {
+  height: 5rem;
+  width: 5rem;
+  display: block;
+  float: left;
+}
+/* line 671, ../../scss/main.scss */
+.navbar .navbar-brand svg:not(:root) {
+  overflow: hidden;
+}
+/* line 674, ../../scss/main.scss */
+.navbar .navbar-brand svg {
+  max-height: 100%;
+}
+/* line 678, ../../scss/main.scss */
+.navbar .navbar-brand span {
+  color: rgba(0, 35, 116, 0.8);
+  display: block;
+  float: left;
+  margin-top: 1.4rem;
+  font-size: 1.6rem;
+}
+/* line 687, ../../scss/main.scss */
+.navbar .navbar-toggler {
+  border-radius: 3.5rem;
+  padding: .55rem;
+  z-index: 1000;
+}
+/* line 693, ../../scss/main.scss */
+.navbar .navbar-toggler-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+/* line 698, ../../scss/main.scss */
+.navbar .nav-item {
+  font-size: 2.4rem;
+  text-align: center;
+  line-height: 2.6rem;
+  padding: 0 1rem;
+}
+/* line 704, ../../scss/main.scss */
+.navbar .nav-item.rights {
+  background-color: #fff;
+}
+/* line 706, ../../scss/main.scss */
+.navbar .nav-item.rights a {
+  color: #2a6afc;
+}
+/* line 710, ../../scss/main.scss */
+.navbar .nav-item.rights:hover {
+  background-color: #2a6afc;
+}
+/* line 712, ../../scss/main.scss */
+.navbar .nav-item.rights:hover a {
+  color: #fff;
+}
+/* line 718, ../../scss/main.scss */
+.navbar .nav-item.home {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+/* line 720, ../../scss/main.scss */
+.navbar .nav-item.home a {
+  color: #fff;
+}
+/* line 724, ../../scss/main.scss */
+.navbar .nav-item.home:hover {
+  background-color: #fff;
+}
+/* line 726, ../../scss/main.scss */
+.navbar .nav-item.home:hover a {
+  color: rgba(42, 106, 252, 0.9);
+}
+/* line 732, ../../scss/main.scss */
+.navbar .nav-item.school {
+  background-color: #23477B;
+}
+/* line 734, ../../scss/main.scss */
+.navbar .nav-item.school a {
+  color: #fff;
+}
+/* line 738, ../../scss/main.scss */
+.navbar .nav-item.school:hover {
+  background-color: #fff;
+}
+/* line 740, ../../scss/main.scss */
+.navbar .nav-item.school:hover a {
+  color: #23477B;
+}
+/* line 746, ../../scss/main.scss */
+.navbar .nav-item.family {
+  background-color: #06B5B5;
+}
+/* line 748, ../../scss/main.scss */
+.navbar .nav-item.family a {
+  color: #fff;
+}
+/* line 752, ../../scss/main.scss */
+.navbar .nav-item.family:hover {
+  background-color: #fff;
+}
+/* line 754, ../../scss/main.scss */
+.navbar .nav-item.family:hover a {
+  color: #06B5B5;
+}
+/* line 760, ../../scss/main.scss */
+.navbar .nav-item.divorce {
+  background-color: #89298D;
+}
+/* line 762, ../../scss/main.scss */
+.navbar .nav-item.divorce a {
+  color: #fff;
+}
+/* line 766, ../../scss/main.scss */
+.navbar .nav-item.divorce:hover {
+  background-color: #fff;
+}
+/* line 768, ../../scss/main.scss */
+.navbar .nav-item.divorce:hover a {
+  color: #89298D;
+}
+/* line 775, ../../scss/main.scss */
+.navbar .nav-item.health {
+  background-color: #E12934;
+}
+/* line 777, ../../scss/main.scss */
+.navbar .nav-item.health a {
+  color: #fff;
+}
+/* line 781, ../../scss/main.scss */
+.navbar .nav-item.health:hover {
+  background-color: #fff;
+}
+/* line 783, ../../scss/main.scss */
+.navbar .nav-item.health:hover a {
+  color: #E12934;
+}
+/* line 790, ../../scss/main.scss */
+.navbar .nav-item.about {
+  background-color: transparent;
+}
+/* line 792, ../../scss/main.scss */
+.navbar .nav-item.about a {
+  color: #002374;
+}
+
+/* line 799, ../../scss/main.scss */
+.kidshasrights-hero {
+  background-color: white !important;
+  background-image: url('../img/family/01_svadecaimajuprava.png?1548927442') !important;
+  background-position-y: 16rem !important;
+  background-repeat: no-repeat !important;
+}
+/* line 805, ../../scss/main.scss */
+.kidshasrights-hero p {
+  margin-top: 10% !important;
+}
+
+/* line 811, ../../scss/main.scss */
+.aboutproject p {
+  color: #fff !important;
+}
+/* line 815, ../../scss/main.scss */
+.aboutproject h1 {
+  color: #fea904;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+@media screen and (max-width: 1000px) {
+  /* line 826, ../../scss/main.scss */
+  .kidshasrights-hero {
+    background-color: white !important;
+    background-image: url('../img/family/01_svadecaimajuprava.png?1548927442') !important;
+    background-position-y: initial !important;
+    background-repeat: no-repeat !important;
+    height: 150px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 841, ../../scss/main.scss */
+  .container-fluid.page-home .intro p, .container.page-home .intro p {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  /* line 848, ../../scss/main.scss */
+  .container-fluid.page-home .content .hero-box, .container.page-home .content .hero-box {
+    display: inline-block;
+  }
+  /* line 851, ../../scss/main.scss */
+  .container-fluid.page-home .content .hero-box h2, .container.page-home .content .hero-box h2 {
+    font-size: 3.5rem;
+  }
+  /* line 855, ../../scss/main.scss */
+  .container-fluid.page-home .content .hero-box:hover, .container.page-home .content .hero-box:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.03);
+  }
+  /* line 861, ../../scss/main.scss */
+  .container-fluid.page-home .footer, .container.page-home .footer {
+    clear: both;
+  }
+  /* line 864, ../../scss/main.scss */
+  .container-fluid.page-home .footer br, .container.page-home .footer br {
+    display: none;
+    margin: 1rem;
+  }
+  /* line 869, ../../scss/main.scss */
+  .container-fluid.page-home .footer h2, .container.page-home .footer h2 {
+    margin: 1%;
+  }
+  /* line 874, ../../scss/main.scss */
+  .container-fluid.page-home .footer .logos img, .container.page-home .footer .logos img {
+    width: auto;
+    height: 80px;
+  }
+  /* line 886, ../../scss/main.scss */
+  .container-fluid.page-cat .section-page-header h1, .container.page-cat .section-page-header h1 {
+    font-size: 3rem;
+  }
+  /* line 890, ../../scss/main.scss */
+  .container-fluid.page-cat .section-page-header h1, .container.page-cat .section-page-header h1 {
+    font-size: 5rem;
+  }
+  /* line 894, ../../scss/main.scss */
+  .container-fluid.page-cat .section-page-header > img, .container.page-cat .section-page-header > img {
+    max-width: 8%;
+  }
+  /* line 898, ../../scss/main.scss */
+  .container-fluid.page-cat .content, .container.page-cat .content {
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+  /* line 904, ../../scss/main.scss */
+  .container-fluid.page-cat .content > .row:hover, .container.page-cat .content > .row:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.03);
+  }
+  /* line 909, ../../scss/main.scss */
+  .container-fluid.page-cat .content > .row .section-hero-box p, .container.page-cat .content > .row .section-hero-box p {
+    margin-top: 50%;
+  }
+  /* line 918, ../../scss/main.scss */
+  .container-fluid.page-divorce .content, .container-fluid.page-health .content, .container.page-divorce .content, .container.page-health .content {
+    margin: 0 auto;
+  }
+  /* line 922, ../../scss/main.scss */
+  .container-fluid.page-divorce .content > .row .section-hero-box p, .container-fluid.page-health .content > .row .section-hero-box p, .container.page-divorce .content > .row .section-hero-box p, .container.page-health .content > .row .section-hero-box p {
+    margin-top: 50%;
+  }
+  /* line 930, ../../scss/main.scss */
+  .container-fluid.page-chat .hero-box, .container.page-chat .hero-box {
+    width: 70vw;
+    height: 50vw;
+    margin: 2rem auto;
+  }
+  /* line 936, ../../scss/main.scss */
+  .container-fluid.page-chat #messages-holder, .container.page-chat #messages-holder {
+    width: 70vw;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+  /* line 941, ../../scss/main.scss */
+  .container-fluid.page-chat #messages-holder .emoji, .container.page-chat #messages-holder .emoji {
+    width: 10%;
+    margin-left: 1%;
+  }
+  /* line 946, ../../scss/main.scss */
+  .container-fluid.page-chat #messages-holder .gif, .container.page-chat #messages-holder .gif {
+    max-height: 170px;
+  }
+  /* line 950, ../../scss/main.scss */
+  .container-fluid.page-chat #messages-holder .bubble p, .container.page-chat #messages-holder .bubble p {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1099px) {
+  /* line 963, ../../scss/main.scss */
+  .container-fluid.page-home .intro, .container.page-home .intro {
+    margin: 2.5% 0;
+  }
+  /* line 967, ../../scss/main.scss */
+  .container-fluid.page-home .content, .container.page-home .content {
+    display: block;
+    text-align: center;
+  }
+  /* line 971, ../../scss/main.scss */
+  .container-fluid.page-home .content .hero-box, .container.page-home .content .hero-box {
+    width: 35vw;
+    height: 30vw;
+    margin: 2vw 2vw;
+    display: inline-block;
+  }
+  /* line 980, ../../scss/main.scss */
+  .container-fluid.page-home .footer, .container.page-home .footer {
+    clear: both;
+  }
+}
+@media screen and (min-width: 1100px) {
+  /* line 991, ../../scss/main.scss */
+  .container-fluid.page-home .intro, .container.page-home .intro {
+    float: left;
+    width: 40%;
+    margin: 2.5% 0;
+  }
+  /* line 998, ../../scss/main.scss */
+  .container-fluid.page-home .content, .container.page-home .content {
+    float: left;
+    width: 56%;
+    margin: 2.5% 0;
+  }
+  /* line 1003, ../../scss/main.scss */
+  .container-fluid.page-home .content .hero-box, .container.page-home .content .hero-box {
+    width: 25vw;
+    height: 20vw;
+    margin: 0.5vw;
+    display: block;
+    float: left;
+  }
+  /* line 1010, ../../scss/main.scss */
+  .container-fluid.page-home .content .hero-box h2, .container.page-home .content .hero-box h2 {
+    font-size: 3rem;
+  }
+  /* line 1019, ../../scss/main.scss */
+  .container-fluid .section-hero-box, .container .section-hero-box {
+    height: 340px;
+  }
+  /* line 1023, ../../scss/main.scss */
+  .container-fluid .footer, .container .footer {
+    clear: both;
+  }
+}
+@media screen and (min-width: 1700px) {
+  /* line 1030, ../../scss/main.scss */
+  .content {
+    max-width: 1800px;
+  }
+
+  /* line 1034, ../../scss/main.scss */
+  .container-fluid .section-hero-box, .container .section-hero-box {
+    height: 365px;
+  }
+
+  /* line 1038, ../../scss/main.scss */
+  .container-fluid > .heading {
+    max-width: 1800px;
+  }
+
+  /* line 1042, ../../scss/main.scss */
+  #messages-holder {
+    max-width: 1800px;
+  }
+
+  /* line 1046, ../../scss/main.scss */
+  .hero-box.family {
+    background-size: auto 386px;
+  }
+
+  /* line 1050, ../../scss/main.scss */
+  .page-school .section-hero-box.school-hero {
+    background-position-y: -8em;
+  }
+
+  /* line 1054, ../../scss/main.scss */
+  .page-school .section-hero-box.schoolimportant-hero {
+    background-position-y: -1rem;
+    background-size: auto 375px;
+  }
+
+  /* line 1059, ../../scss/main.scss */
+  .page-school .section-hero-box.schoolrights-hero {
+    background-position-y: -14em;
+  }
+
+  /* line 1063, ../../scss/main.scss */
+  .page-school .section-hero-box.schoolduties-hero {
+    background-size: auto 363px;
+  }
+
+  /* line 1067, ../../scss/main.scss */
+  .page-school .section-hero-box.schoolrightshowto-hero {
+    background-position-y: -14em;
+  }
+
+  /* line 1071, ../../scss/main.scss */
+  .page-school .section-hero-box.schoolactivities-hero {
+    background-position-y: -2em;
+  }
+
+  /* line 1075, ../../scss/main.scss */
+  .page-family .section-hero-box.familyfostercare-hero {
+    background-size: auto 377px;
+  }
+
+  /* line 1079, ../../scss/main.scss */
+  .page-family .section-hero-box.familyparticipation-hero {
+    background-position-y: 13rem;
+  }
+
+  /* line 1084, ../../scss/main.scss */
+  .page-family .section-hero-box.familywhatis-hero p {
+    margin-top: 6% !important;
+    margin-left: 47%;
+    line-height: 2.8rem;
+  }
+
+  /* line 1092, ../../scss/main.scss */
+  .page-family .section-hero-box.familywhen-hero {
+    background-size: auto 390px;
+    background-position-x: -5rem;
+  }
+
+  /* line 1097, ../../scss/main.scss */
+  .page-family .section-hero-box.familyprinciples-hero {
+    background-size: auto 370px;
+  }
+
+  /* line 1101, ../../scss/main.scss */
+  .page-family .section-hero-box.familyevaluation-hero {
+    background-size: auto 390px;
+    background-position-x: -5rem;
+  }
+
+  /* line 1106, ../../scss/main.scss */
+  .page-divorce .section-hero-box.divorcerights-hero {
+    background-size: auto 485px;
+    background-position-y: -6rem;
+  }
+
+  /* line 1111, ../../scss/main.scss */
+  .page-divorce .section-hero-box.divorcepractice-hero {
+    background-position-y: -18rem;
+  }
+
+  /* line 1115, ../../scss/main.scss */
+  .page-divorce .section-hero-box.divorcecourt-hero {
+    background-size: auto 485px;
+    background-position-y: -6rem;
+  }
+
+  /* line 1120, ../../scss/main.scss */
+  .page-divorce .section-hero-box.divorceyou-hero {
+    background-size: auto 388px;
+    background-position-x: -21rem;
+  }
+
+  /* line 1125, ../../scss/main.scss */
+  .hero-box.in-school {
+    background-position-y: -23em;
+  }
+
+  /* line 1129, ../../scss/main.scss */
+  .hero-box.important-school {
+    background-size: contain;
+  }
+
+  /* line 1133, ../../scss/main.scss */
+  .hero-box.rightsin-school {
+    background-position-y: -43em;
+  }
+
+  /* line 1137, ../../scss/main.scss */
+  .hero-box.dutiesin-school {
+    background-size: contain;
+    background-position-x: 0;
+  }
+
+  /* line 1142, ../../scss/main.scss */
+  .hero-box.rightshowtoin-school {
+    background-position-y: -32em;
+  }
+
+  /* line 1146, ../../scss/main.scss */
+  .hero-box.participatein-family {
+    background-position-y: 20rem;
+  }
+
+  /* line 1150, ../../scss/main.scss */
+  .hero-box.permanence-family {
+    background-size: auto 760px;
+    background-position-x: 24rem;
+  }
+
+  /* line 1158, ../../scss/main.scss */
+  .hero-box.participationprinciples-family {
+    background-size: auto 750px;
+    background-position-x: 0;
+  }
+
+  /* line 1163, ../../scss/main.scss */
+  .hero-box.procedurerights-divorce {
+    background-position-y: -8rem;
+  }
+
+  /* line 1167, ../../scss/main.scss */
+  .hero-box.procedureserbia-divorce {
+    background-position-y: -29rem;
+  }
+
+  /* line 1171, ../../scss/main.scss */
+  .hero-box.yourrights-divorce {
+    background-position-y: -8rem;
+  }
+
+  /* line 1175, ../../scss/main.scss */
+  .hero-box.whereami-divorce {
+    background-size: auto 903px;
+    background-position-x: -49rem;
+  }
+
+  /* line 1182, ../../scss/main.scss */
+  .page-divorce .content, .page-health .content {
+    margin: 0 auto;
+  }
+  /* line 1185, ../../scss/main.scss */
+  .page-divorce .content > .row.col-md-6, .page-health .content > .row.col-md-6 {
+    width: 600px;
+    height: 400px;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+  /* line 1191, ../../scss/main.scss */
+  .page-divorce .content > .row.col-md-6 .section-hero-box, .page-health .content > .row.col-md-6 .section-hero-box {
+    height: 600px;
+  }
+  /* line 1195, ../../scss/main.scss */
+  .page-divorce .content > .row.col-md-6 .section-hero-box p, .page-health .content > .row.col-md-6 .section-hero-box p {
+    margin-top: 45%;
+  }
+}

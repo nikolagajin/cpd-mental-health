@@ -1,26 +1,29 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* Define CSS variables for light mode */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ffffff; /* White */
+  --foreground: #000000; /* Black */
+  --primary: #0070f3;   /* Blue */
+  --secondary: #dddddd; /* Light Gray */
+  --text-color: #333333;  /* Dark Gray */
+  --cpd-gray: #202020;  /* Custom Dark Gray */
+  --cpd-orange: rgb(247, 148, 29); /* Custom Orange */
+  --cpd-light-gray: rgb(241, 241, 241); /* Custom Light Gray */
+  --cpd-blue: rgb(11, 129, 195); /* Custom Blue */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Define CSS variables for dark mode */
+.dark {
+  --background: #000000; /* Black */
+  --foreground: #ffffff; /* White */
+  --primary: #66b3ff;   /* Light Blue */
+  --secondary: #444444; /* Darker Gray */
+  --text-color: #eeeeee;  /* Light Gray */
+  --cpd-gray: #333333;  /* Slightly Lighter Dark Gray */
+  --cpd-orange: rgb(255, 170, 85); /* Lighter shade for dark mode */
+  --cpd-light-gray: rgba(150, 150, 150, 0.5); /* Light Gray for dark mode */
+  --cpd-blue: rgb(70, 150, 200); /* Adjust for dark mode - lighter blue */
 }
