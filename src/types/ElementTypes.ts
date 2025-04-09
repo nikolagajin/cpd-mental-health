@@ -1,0 +1,1 @@
+export type ElementType = "Heading" | "Paragraph" | "AlertParagraph" | "AlertParagraphDark" | "QuoteParagraph" | "FramedParagraph"; 

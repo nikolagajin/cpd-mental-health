@@ -5,7 +5,7 @@ import { roboto } from '@/lib/fonts';
 
 const Header: React.FC = () => {
     return (
-        <nav className="bg-gray-100">
+        <nav className="bg-gray-100 fixed top-0 w-full bg-light-gray z-50">
             <Link className="flex items-center p-2" href="/">
                 <svg className="w-[3rem] h-[3rem] ">
                     <use xlinkHref="#cpd_logo">

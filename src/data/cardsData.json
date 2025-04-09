@@ -1,0 +1,91 @@
+[
+    {
+        "title": "Lorem Ipsum",
+        "imageSrc": "/static/img/emojis/v2/school.png",
+        "description": "Nulla vitae elit libero, a pharetra augue.",
+        "elements": [
+            {
+                "type": "Paragraph",
+                "content": "**Lorem ipsum dolor sit amet**, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "type": "AlertParagraph",
+                "content": "Lorem ipsum dolor sit amet, consectetur **adipiscing elit**. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "type": "Paragraph",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. *Sed non risus*. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. *Sed non risus*. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "type": "AlertParagraphDark",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "type": "Paragraph",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. *Sed non risus*. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. *Sed non risus*. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "type": "QuoteParagraph",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "type": "Paragraph",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. *Sed non risus*. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. *Sed non risus*. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "type": "FramedParagraph",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            }
+        ]
+    },
+    {
+        "title": "Lorem Ipsum dolor sit amet?",
+        "imageSrc": "/static/img/emojis/v2/fist.png",
+        "description": "Nulla vitae elit libero, a pharetra augue.",
+        "elements": [
+            {
+                "type": "Paragraph",
+                "content": "**Lorem ipsum dolor sit amet**, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "type": "Paragraph",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. *Sed non risus*. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. *Sed non risus*. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "type": "AlertParagraph",
+                "content": "Lorem ipsum dolor sit amet, consectetur **adipiscing elit**. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "type": "Paragraph",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. *Sed non risus*. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. *Sed non risus*. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            }
+        ]
+    },
+    {
+        "title": "Amet Consectetur Adipiscing",
+        "imageSrc": "/static/img/emojis/v2/how.png",
+        "description": "Nulla vitae elit libero, a pharetra augue.",
+        "elements": [
+            {
+                "type": "Paragraph",
+                "content": "**Lorem ipsum dolor sit amet**, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "type": "AlertParagraph",
+                "content": "Lorem ipsum dolor sit amet, consectetur **adipiscing elit**. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "type": "Paragraph",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. *Sed non risus*. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. *Sed non risus*. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "type": "Paragraph",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. *Sed non risus*. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. *Sed non risus*. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "type": "FramedParagraph",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            }
+        ]
+    }
+]

@@ -3,12 +3,18 @@ import { Metadata } from 'next';
 import './globals.css'; // Your global styles (Tailwind or other)
 import Header from '@/components/Header';
 import HomeHeading from '@/components/HomeHeading';
-import InfoCard from '@/components/InfoCard';
+
 import Content from '@/components/Content';
+import Footer from '@/components/Footer';
+
+import { Nunito } from 'next/font/google'
+
+const nunito = Nunito({ subsets: ['latin-ext'] })
+
 
 export const metadata: Metadata = {
-  title: 'CPD::Tvoja prava',
-  description: 'A basic Next.js app', // Customize this
+  title: 'CPD:: BUDI OK',
+  description: 'Psihološki imunitet - tvoj super štit!',
 };
 
 export default function RootLayout({
@@ -34,14 +40,14 @@ export default function RootLayout({
       </head>
       <body>
         <Header />
-        <main className="flex-grow bg-cpd-gray p-4">
+        <main className={`flex-grow bg-white mt-[4rem] ${nunito.className}`}>
           <HomeHeading />
 
           <div className="flex flex-wrap -mx-4 mt-12 pt-12">
             <Content />
           </div>
-
           {children}
+          <Footer />
         </main>
       </body>
     </html>
