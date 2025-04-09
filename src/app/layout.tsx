@@ -40,7 +40,7 @@ export default function RootLayout({
       </head>
       <body>
         <Header />
-        <main className={`flex-grow bg-white mt-[4rem] ${nunito.className}`}>
+        <main className={`flex-grow bg-cpd-layout-bg mt-[4rem] ${nunito.className}`}>
           <HomeHeading />
 
           <div className="flex flex-wrap -mx-4 mt-12 pt-12">

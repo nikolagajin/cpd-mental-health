@@ -23,6 +23,15 @@ module.exports = {
         'cpd-red-dark': `theme('colors.red.700')`,
         'cpd-pink': `theme('colors.rose.500')`,
         'cpd-pink-dark': `theme('colors.rose.700')`,
+        'cpd-layout-bg': `theme('colors.white')`,
+        'cpd-hero-bg': 'var(--cpd-light-gray)',
+        'cpd-hero-text-color': 'var(--cpd-gray)',
+        'cpd-infocard-main-bg': 'var(--cpd-blue)',
+        'cpd-infocard-secondary-bg': `theme('colors.indigo.700')`,
+        'cpd-infocard-heading-color': 'var(--cpd-light-gray)',
+        'cpd-infocard-button-bg': 'theme(colors.white)',
+        'cpd-infocard-button-text-color': 'theme(colors.indigo.400)',
+        'cpd-infocard-button-border-color': 'theme(colors.indigo.300)'
       },
       width: {
         '18': '4.5rem', // 18 * 0.25rem = 4.5rem

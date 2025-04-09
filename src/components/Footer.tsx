@@ -82,22 +82,22 @@ const Footer = () => {
                             src="/static/img/eu_logo_l.png"
                             alt="EU za Tebe"
                             width={0}
-                            height={80}
-                            className="h-auto h-12 w-auto"
+                            height={0}
+                            className="h-12 w-auto"
                         />
                         <Image
                             src="/static/img/mljp_logo.jpg"
                             alt="Atina Logo"
                             width={0}
-                            height={80}
-                            className="h-auto h-20 w-auto"
+                            height={0}
+                            className="h-24 w-auto"
                         />
                         <Image
                             src="/static/img/cpd_logo_2.png"
                             alt="Centar za prava deteta Logo"
                             width={0}
-                            height={80}
-                            className="h-auto h-20 w-auto"
+                            height={0}
+                            className="h-20 w-auto"
                         />
                     </div>
                 </div>

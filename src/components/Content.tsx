@@ -260,7 +260,7 @@ const Content: React.FC = () => {
             ]
         },
         {
-            "title": "Joy Hack – mali rituali koje poprave dan",
+            "title": "Joy Hack – mali rituali koji poprave dan",
             "imageSrc": "/static/img/emojis/v2/fist.png",
             "description": "Nulla vitae elit libero, a pharetra augue.",
             "emoji": "party-popper",
@@ -354,7 +354,7 @@ const Content: React.FC = () => {
                 {cardData.map((card, index) => (
                     <InfoCard
                         key={index}
-                        size={card?.size || '1/3'} // Default value of "1/3"
+                        size={card?.size || '1/3'} 
                         title={card.title}
                         imageSrc={card.imageSrc}
                         description={card.description}
